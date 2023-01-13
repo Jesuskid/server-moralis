@@ -6,10 +6,10 @@ export interface RequestMessage {
   networkType: string;
 }
 
-const DOMAIN = 'defi.finance';
+const DOMAIN = 'tone.garden';
 const STATEMENT = 'Please sign this message to confirm your identity.';
-const URI = 'https://defi.finance';
-const EXPIRATION_TIME = '2023-01-01T00:00:00.000Z';
+const URI = 'https://tone.garden';
+const EXPIRATION_TIME = '2050-01-01T00:00:00.000Z';
 const TIMEOUT = 15;
 
 export async function requestMessage({
