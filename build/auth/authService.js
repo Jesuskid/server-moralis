@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.requestMessage = void 0;
 const moralis_1 = __importDefault(require("moralis"));
-const DOMAIN = 'tone.garden';
+const DOMAIN = 'tonegarden.xyz';
 const STATEMENT = 'Please sign this message to confirm your identity.';
-const URI = 'https://tone.garden';
+const URI = 'https://tonegarden.xyz';
 const EXPIRATION_TIME = '2050-01-01T00:00:00.000Z';
 const TIMEOUT = 15;
 async function requestMessage({ address, chain, networkType, }) {

@@ -6,9 +6,9 @@ export interface RequestMessage {
   networkType: string;
 }
 
-const DOMAIN = 'tone.garden';
+const DOMAIN = 'tonegarden.xyz';
 const STATEMENT = 'Please sign this message to confirm your identity.';
-const URI = 'https://tone.garden';
+const URI = 'https://tonegarden.xyz';
 const EXPIRATION_TIME = '2050-01-01T00:00:00.000Z';
 const TIMEOUT = 15;
 
