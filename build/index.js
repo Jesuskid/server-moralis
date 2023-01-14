@@ -17,7 +17,7 @@ moralis_1.default.start({
     apiKey: config_1.default.MORALIS_API_KEY,
 });
 exports.app.use(express_1.default.urlencoded({ extended: true }));
-exports.app.use(express_1.default.json());
+exports.app.use(express_1.default.json({ limit: '50mb' }));
 exports.app.use((0, cors_1.default)());
 exports.app.use(`/server`, parseServer_1.parseServer);
 const httpServer = http_1.default.createServer(exports.app);
